@@ -1,5 +1,15 @@
 {
   "lighting": "vialrgb",
+  "customKeycodes": [
+	  {"name": "CW_TOGG",
+	  "title": "Caps Word Toggle",
+	  "shortName": "CAPWRD"
+	  },
+    {"name": "QK_LLCK",
+	  "title": "Layer Lock",
+	  "shortName": "LAYLCK"
+	  }
+  ],
   "matrix": {"rows": 8, "cols": 6},
   "layouts":{
     "keymap":[

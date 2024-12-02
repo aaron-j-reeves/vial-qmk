@@ -1,5 +1,3 @@
-/* SPDX-License-Identifier: GPL-2.0-or-later */
-
 #pragma once
 
 #define VIAL_KEYBOARD_UID \
@@ -11,3 +9,11 @@
     { 0, 1 }
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
+
+#define SPLIT_TRANSPORT_MIRROR
+
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 0
+#define MOUSEKEY_WHEEL_INTERVAL 100
+#define MOUSEKEY_WHEEL_MAX_SPEED 12
+
+#define RGB_MATRIX_DEFAULT_HUE 55
