@@ -16,7 +16,7 @@
         "layer_lock": true,
         "caps_word": true,
         "command": false,
-        "pointing_device": false
+        "pointing_device": true
     },
     "indicators": {
         "caps": "GP24"
@@ -111,10 +111,6 @@
             "riverflow": true,
             "effect_max": true
         },
-        "default": {
-            "animation": "riverflow",
-        },
-        "max_brightness": 200,
         "split_count": [27, 27],
         "driver": "ws2812",
         "layout": [
@@ -172,8 +168,7 @@
             {"matrix": [4, 0], "x": 225, "y": 7, "flags": 1},
             {"matrix": [5, 0], "x": 225, "y": 24, "flags": 1},
             {"matrix": [6, 0], "x": 225, "y": 41, "flags": 1}
-        ],
-        "sleep": false
+        ]
     },
     "community_layouts": ["split_3x6_3"],
     "layout_aliases": {
@@ -229,15 +224,8 @@
     },
     "caps_word": {
         "both_shifts_turns_on": true,
-        "double_tap_shift_turns_on": true,
+        "double_tap_shift_turns_on": false,
         "idle_timeout": 5000,
         "invert_on_shift": true
     },
-    "mouse_key": {
-        "delay": 1,
-        "interval": 8,
-        "max_speed": 5,
-        "time_to_max": 200,
-        "wheel_delay": 1
-    }
 }
