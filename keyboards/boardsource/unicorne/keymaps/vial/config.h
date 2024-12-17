@@ -19,7 +19,7 @@
 #define MOUSEKEY_WHEEL_MAX_SPEED 12
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 0
 
-#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 180                       // limits maximum brightness of LEDs to 180 out of 255. If not defined maximum brightness is set to 255
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 200                       // limits maximum brightness of LEDs to 180 out of 255. If not defined maximum brightness is set to 255
 #define RGB_MATRIX_DEFAULT_ON true                              // Sets the default enabled state, if none has been set
 #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_RIVERFLOW            // Sets the default mode, if none has been set
 #define RGB_MATRIX_DEFAULT_HUE 20                               // Sets the default hue value, if none has been set
