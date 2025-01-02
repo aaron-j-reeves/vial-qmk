@@ -5,26 +5,26 @@
 // Define your layers
 enum layers {
     _QWTY,
-    _SHFT,
+    _GALM,
     _NUMB,
+    _SYMB,
     _NAVI,
     _FUNC,
     _LOWR,
     _RAIS,
-    _ADJS,
     _LAYER_COUNT  // Total number of layers
 };
 
 // Layer names stored in regular memory
 static const char *const layer_names[] = {
-    "QWRTY",
-    "SHFT",
+    "QWTY",
+    "GALM",
     "NUMB",
+    "SYMB",
     "NAVI",
     "FUNC",
     "LOWR",
-    "RAIS",
-    "ADJS"
+    "RAIS"
 };
 
 // Function to get layer name

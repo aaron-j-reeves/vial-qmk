@@ -25,9 +25,6 @@
     "[json]": {
         "editor.formatOnSave": false
     },
-    "clangd.arguments": [
-        "--header-insertion=never"
-    ],
     "cmake.sourceDirectory": "/Users/aaronreeves/kb-stuff/repos/vial-qmk/lib/pico-sdk/test/pico_float_test",
     "terminal.integrated.profiles.windows": {
         "QMK_MSYS": {
