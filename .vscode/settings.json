@@ -1,8 +1,5 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    // Unofficially, QMK uses spaces for indentation
-    "editor.insertSpaces": true,
-    // Configure glob patterns for excluding files and folders.
     "files.exclude": {
         "**/.build": true,
         "**/*.hex": true,
@@ -31,5 +28,16 @@
     "clangd.arguments": [
         "--header-insertion=never"
     ],
-    "cmake.sourceDirectory": "/Users/aaronreeves/kb-stuff/repos/vial-qmk/lib/pico-sdk/test/pico_float_test"
+    "cmake.sourceDirectory": "/Users/aaronreeves/kb-stuff/repos/vial-qmk/lib/pico-sdk/test/pico_float_test",
+    "terminal.integrated.profiles.windows": {
+        "QMK_MSYS": {
+            "path": "C:/keyboard_stuff/QMK_MSYS/usr/bin/bash.exe",
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            },
+            "args": ["--login"]
+        }
+    },
+        "terminal.integrated.cursorStyle": "line"
 }
