@@ -1,1 +1,2 @@
-POINTING_DEVICE_DRIVER = analog_joystick
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
