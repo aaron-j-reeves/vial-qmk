@@ -1,5 +1,5 @@
 // layers.h
-#ifndef LAYERS_H
+#pragma once
 #define LAYERS_H
 
 // Define your layers
@@ -29,5 +29,3 @@ static const char *const layer_names[] = {
 
 // Function to get layer name
 const char *get_layer_name(uint8_t layer);
-
-#endif // LAYERS_H
