@@ -1,7 +1,6 @@
 // Place your settings in this file to overwrite default and user settings.
 {
     "files.exclude": {
-        "**/.build": true,
         "**/*.hex": true,
         "**/*.bin": true,
         "**/*.uf2": true
@@ -25,7 +24,7 @@
     "[json]": {
         "editor.formatOnSave": false
     },
-    "cmake.sourceDirectory": "/Users/aaronreeves/kb-stuff/repos/vial-qmk/lib/pico-sdk/test/pico_float_test",
+    "cmake.sourceDirectory": "C:/keyboard_stuff/vial-qmk/lib/pico-sdk/test/pico_float_test",
     "terminal.integrated.profiles.windows": {
         "QMK_MSYS": {
             "path": "C:/keyboard_stuff/QMK_MSYS/usr/bin/bash.exe",
