@@ -227,5 +227,5 @@
         "double_tap_shift_turns_on": false,
         "idle_timeout": 5000,
         "invert_on_shift": true
-    },
+    }
 }
