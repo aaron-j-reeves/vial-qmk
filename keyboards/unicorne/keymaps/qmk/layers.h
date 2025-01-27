@@ -1,11 +1,9 @@
 // layers.h
-#ifndef LAYERS_H
-#define LAYERS_H
+#pragma once
 
-// Define your layers
+// Define the layers
 enum layers {
     _QWTY,
-    _GALM,
     _NUMB,
     _SYMB,
     _NAVI,
@@ -18,7 +16,6 @@ enum layers {
 // Layer names stored in regular memory
 static const char *const layer_names[] = {
     "QWTY",
-    "GALM",
     "NUMB",
     "SYMB",
     "NAVI",
@@ -29,5 +26,3 @@ static const char *const layer_names[] = {
 
 // Function to get layer name
 const char *get_layer_name(uint8_t layer);
-
-#endif // LAYERS_H
