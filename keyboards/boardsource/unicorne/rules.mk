@@ -1,1 +1,2 @@
-POINTING_DEVICE_DRIVER = analog_joystick
+# parent rules.mk
+POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c

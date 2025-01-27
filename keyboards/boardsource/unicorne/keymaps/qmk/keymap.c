@@ -1,5 +1,4 @@
 // keymap.c
-#pragma once
 #include QMK_KEYBOARD_H
 #include "audio.h"
 #include "song_list.h"
