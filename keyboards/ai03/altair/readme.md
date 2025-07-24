@@ -22,4 +22,4 @@ qmk config user.keyboard=ai03/altair
 
 qmk config user.keymap=vial
 
-qmk flash -c -kb ai03/altair -km vial
+qmk compile -c -kb ai03/altair -km vial
