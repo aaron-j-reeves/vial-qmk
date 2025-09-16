@@ -1,5 +1,6 @@
 // layers.h
 #pragma once
+#include <stdint.h>
 #define LAYERS_H
 
 // Define the layers
